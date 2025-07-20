@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon 2024</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+      <p>Join us at TechCon 2024 for a transformative experience where industry leaders, innovators, and enthusiasts gather to explore the latest in technology, network with peers, and participate in hands-on workshops.</p>
+      <video controls width="640" height="360" aria-describedby="video-desc">
+        <source src="promo.mp4" type="video/mp4">
+        <track kind="subtitles" src="promo_subtitles.vtt" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+      <p id="video-desc" class="visually-hidden">Promotional video for TechCon 2024 with subtitles available.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
+  </footer>
+</body>
+</html>
